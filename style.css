@@ -1,0 +1,138 @@
+*{
+  margin:10px; 
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+.nav-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: Roboto, sans-serif;
+  position: absolute;
+}
+
+.name {
+  display: block;
+  padding-top: 10%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.suddenly {
+  font-family: sans-serif;
+  font-size: 20px;  
+  color:grey;
+  text-align: center;
+  animation: fadeIn 3s;
+  }
+
+.love-is-back {
+  font-family: 'neue_montrealbold', sans-serif;
+  font-size:6rem;
+  font-weight: 1000;
+  letter-spacing: -20px;
+}
+
+.container {
+  padding-top:30px;
+  text-align: center;
+  height: 100vmin;
+}
+
+.container img {
+  width: 80vmin;
+  height: 80vmin;
+object-fit: contain;}
+
+
+.first-cover {
+  width: 10vmin;
+  height: 16vmin;
+  object-fit:contain;
+  position: absolute;
+}
+
+.abstract {
+  font-family: sans-serif;
+  size: 28px;
+}
+
+.about {
+  display:block;
+  padding-top:80px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px;
+}
+
+.about-header {
+  font-family: sans-serif;
+  font-size:28px;
+  padding-bottom:10px;
+}
+
+.about-content-1 {
+  text-align: justify;
+  font-family:sans-serif;
+  line-height: 1cm;
+  font-size: 20px;
+  padding-bottom:10px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 1.5s all ease-in-out;
+}
+
+.about-content-1-appear {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.contact {
+  display:block;
+  padding-top:50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px;
+}
+
+.contact-header {
+  font-family: sans-serif;
+  font-size:28px;
+  padding-bottom:10px;
+}
+
+.contact-text {
+  text-align: justify;
+  font-family:sans-serif;
+  line-height: 1cm;
+  font-size: 20px;
+  padding-bottom:10px;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.read {
+  animation: fadeIn 2s;
+}
+
+span {
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: inline-block;
+  transform: translateY(100px);
+  animation-delay: 5s;
+}
+
+span.fade {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.suddenly.fadeIn {
+  opacity: 1;
+}
+

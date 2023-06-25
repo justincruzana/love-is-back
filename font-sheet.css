@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'neue_montrealbold_italic';
+    src: url('neuemontreal-bolditalic.woff2') format('woff2'),
+         url('neuemontreal-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montrealitalic';
+    src: url('neuemontreal-italic.woff2') format('woff2'),
+         url('neuemontreal-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montreallight_italic';
+    src: url('neuemontreal-lightitalic.woff2') format('woff2'),
+         url('neuemontreal-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montrealmedium_italic';
+    src: url('neuemontreal-mediumitalic.woff2') format('woff2'),
+         url('neuemontreal-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montrealbold';
+    src: url('neuemontreal-bold.woff2') format('woff2'),
+         url('neuemontreal-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montreallight';
+    src: url('neuemontreal-light.woff2') format('woff2'),
+         url('neuemontreal-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montrealmedium';
+    src: url('neuemontreal-medium.woff2') format('woff2'),
+         url('neuemontreal-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montrealregular';
+    src: url('neuemontreal-regular.woff2') format('woff2'),
+         url('neuemontreal-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'neue_montrealbold';
+    src: url('neuemontreal-bold.woff2') format('woff2'),
+         url('neuemontreal-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
