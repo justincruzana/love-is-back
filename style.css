@@ -1,5 +1,6 @@
 *{
-  margin:10px; 
+  margin: 0;
+  padding: 0; 
   box-sizing: border-box;
   vertical-align: baseline;
 }
@@ -10,6 +11,8 @@
   justify-content: space-around;
   font-family: Roboto, sans-serif;
   position: absolute;
+  align-items: center;
+  height: 70px;
 }
 
 .name {
@@ -31,7 +34,7 @@
   font-family: 'neue_montrealbold', sans-serif;
   font-size:6rem;
   font-weight: 1000;
-  letter-spacing: -20px;
+  /* letter-spacing: -20px; */
 }
 
 .container {
@@ -116,18 +119,24 @@ object-fit: contain;}
 }
 
 .read {
-  animation: fadeIn 2s;
+  animation: fadeIn 2s ;
 }
 
-span {
+/* span {
   opacity: 0;
   transition: all 0.3s ease;
   display: inline-block;
   transform: translateY(100px);
-  animation-delay: 5s;
+} */
+
+.love-animation {
+  opacity: 0;
+  transition: all 0.3s ease;
+  display: inline-block;
+  transform: translateY(100px);
 }
 
-span.fade {
+.fade {
   opacity: 1;
   transform: translateY(0px);
 }

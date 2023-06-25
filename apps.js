@@ -1,20 +1,33 @@
-const text = document.querySelector ('.love-is-back');
-const stringText = text.textContent;
-const splitText = stringText.split('');
+const text = document.querySelector('.love-is-back'); 
+const stringText = text.textContent.split(''); 
+// text.textContent
+// LOVE IS BACK
+
+// text.textContent.split('')
+// stringText = ['L', 'O', 'V', 'E' , ' ' ....]
+// stringText[0] = L
+// stringText[1] = O 
+// LOVE  IS BACK
+
+// const splitText = stringText.split('');
 text.textContent = "";
 
-for (let i = 0; i < splitText.length; i++) {
-  text.innerHTML += "<span>" + splitText[i] + "</span>";
+for (let i = 0; i < stringText.length; i++) {
+  if(stringText[i] === ' '){
+    text.innerHTML += "<span> </span>"
+  } else {
+    text.innerHTML += "<div class='love-animation'>" + stringText[i] + "</div>";
+  }
 }
 
 let char = 0;
 let timer = setInterval(onTick, 50);
 
 function onTick() {
-  const span = text.querySelectorAll('span')[char];
+  const span = text.querySelectorAll('.love-animation')[char];
   span.classList.add('fade');
   char++;
-  if(char === splitText.length){
+  if(char === stringText.length){
     complete();
     return;
   }
